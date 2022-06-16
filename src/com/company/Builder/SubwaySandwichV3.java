@@ -6,7 +6,7 @@ public class SubwaySandwichV3 {
     private String veggies;
     private String fillings;
 
-    public SubwaySandwichV3(SubwaySandwichV3 b) {
+    public SubwaySandwichV3(Builder b) {
         this.bread = b.bread;
         this.condiments = b.condiments;
         this.veggies = b.veggies;
@@ -56,12 +56,13 @@ public class SubwaySandwichV3 {
             this.fillings = fillings;
             return this;
         }
-    }
+
 
     // make a build() method which can create the object of outer class.!
 
-    public SubwaySandwichV3 build(){
+    public SubwaySandwichV3 build() {
         return new SubwaySandwichV3(this);
+    }
     }
 
 
