@@ -1,0 +1,21 @@
+Creational Design Patterns are concerned with
+-When
+-How
+- Howmany
+
+Objects to be CREATED.!!
+
+// Implementation of Singleton
+1. Restrict Instance Creation - We create instance from constructor so
+** MAKE CONSTRUCTOR PRIVATE
+2. Now how do you allow any one to create one instance
+** CREATE A METHOD
+3. but how without an object call a method
+** STATIC METHOD
+4. Still we can crate multiple instances;
+there should be a place where we can store if an instance is created already or not.! and Check!
+** HAVE A STATIC VARIABLE WHICH STORES THE INSTANCE.
+
+==========
+
+https://www.baeldung.com/java-singleton

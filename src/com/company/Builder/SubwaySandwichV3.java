@@ -5,7 +5,7 @@ public class SubwaySandwichV3 {
     private String condiments;
     private String veggies;
     private String fillings;
-
+// Pass builder object in constructor
     public SubwaySandwichV3(Builder b) {
         this.bread = b.bread;
         this.condiments = b.condiments;
