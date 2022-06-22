@@ -1,4 +1,4 @@
-package com.company.Singleton;
+package com.company.Creational.Singleton;
 
 public enum EnumSingleton {
     INSTANCE;

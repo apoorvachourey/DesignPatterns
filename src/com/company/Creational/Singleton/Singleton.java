@@ -1,4 +1,4 @@
-package com.company.Singleton;
+package com.company.Creational.Singleton;
 /*
 - we should have only one instance of a particular class
 Example - Loggers, DB Connections,

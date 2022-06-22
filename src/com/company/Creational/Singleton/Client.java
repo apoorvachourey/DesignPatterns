@@ -1,8 +1,4 @@
-package com.company.Singleton;
-
-import com.company.Singleton.Singleton;
-
-import java.util.Stack;
+package com.company.Creational.Singleton;
 
 public class Client {
 

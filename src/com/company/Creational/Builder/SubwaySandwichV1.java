@@ -1,4 +1,4 @@
-package com.company.Builder;
+package com.company.Creational.Builder;
 
 public class SubwaySandwichV1 {
     private String bread;
