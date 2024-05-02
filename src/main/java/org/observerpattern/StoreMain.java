@@ -34,3 +34,8 @@ public class StoreMain {
 
     }
 }
+/*
+Real time usecase -
+Amazon website item going out of stock and user clicking notify me!
+
+ */
