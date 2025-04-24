@@ -8,4 +8,8 @@ public class Pair<T, T1> {
         this.first = first;
         this.second = second;
     }
+
+    public Pair() {
+
+    }
 }
